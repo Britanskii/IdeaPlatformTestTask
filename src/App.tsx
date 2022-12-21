@@ -1,12 +1,14 @@
-import React from 'react'
-import s from './app.module.sass'
+import React from "react"
+import Header from "./components/header/Header"
+
+import s from "./app.module.sass"
 
 const App = () => {
 
     return (
-        <div className="App">
-            Аниме
-        </div>
+        <>
+            <Header/>
+        </>
     )
 }
 
